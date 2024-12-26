@@ -79,7 +79,9 @@ To create Flutter project using Android Studio, follow below steps:
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1734332562523/610cd193-8699-4e49-81a5-2456946a7375.png align="center")
     
 
-I have also created a YouTube video regarding this topic, so if you would like to watch a video tutorial, then please go to.
+I have also created a YouTube video regarding this topic, so if you would like to watch a video tutorial, then please go to [https://youtu.be/9Xx\_ZrymBQk](https://youtu.be/9Xx_ZrymBQk).
+
+%[https://youtu.be/9Xx_ZrymBQk] 
 
 ## Conclusion:
 
