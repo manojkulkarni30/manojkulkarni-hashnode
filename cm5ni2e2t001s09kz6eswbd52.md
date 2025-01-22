@@ -89,76 +89,76 @@ As with any other object oriented language, Dart language support the following:
     * Numbers (int, double)
         
         * ```dart
-                  int a = 10; 
-                  double pi= 3.142; 
-                  
-                  num x = 1; // x can have both int and double values
+                    int a = 10; 
+                    double pi= 3.142; 
+                    
+                    num x = 1; // x can have both int and double values
             ```
             
     * Strings (String): We can create string variables either using single or double quotes.
         
         * ```dart
-                  var s1 = "This is a string"; // type inference
-                  String s2 = "Dart is very easy to learn";
-                  String s3 = 'Dart is very easy to learn';
+                    var s1 = "This is a string"; // type inference
+                    String s2 = "Dart is very easy to learn";
+                    String s3 = 'Dart is very easy to learn';
             ```
             
     * Booleans (bool)
         
         * ```dart
-                  bool isTrue = false;
-                  bool isVisible = true;
+                    bool isTrue = false;
+                    bool isVisible = true;
             ```
             
     * Lists (List): Dart list is denoted by a comma separated list of expressions or values, enclosed in a square brackets.
         
         * ```dart
-                  var list = [1, 2, 3]; // List of integers
-                  var colors = ['Red', 'Blue', 'Green'];// List of strings
+                    var list = [1, 2, 3]; // List of integers
+                    var colors = ['Red', 'Blue', 'Green'];// List of strings
             ```
             
     * Maps (Map - Holds key value pair similar to Dictionary in C#): The Map object is a key-value pair. Both keys and values can be of any type of object. Each key occurs only once, but we can use same value multiple times. Map is a dynamic collection which can grow or shrink at runtime.
         
         * ```dart
-                  var todoItem = {
-                      'task':'Learn Dart',
-                      'isCompleted':false
-                  };
-                  
-                  // We can create a map object where key and value can
-                  // only be of type string
-                  var todoList = Map<String, String>();
-                  todoList['firstTask'] = 'Read a book';
-                  todoList['secondTask'] = 'Learn Dart';
+                    var todoItem = {
+                        'task':'Learn Dart',
+                        'isCompleted':false
+                    };
+                    
+                    // We can create a map object where key and value can
+                    // only be of type string
+                    var todoList = Map<String, String>();
+                    todoList['firstTask'] = 'Read a book';
+                    todoList['secondTask'] = 'Learn Dart';
             ```
             
     * Function: Function is also a return type in dart, means we can assign function to variables or also pass function as an argument to other functions.
         
     * ```dart
-              // Below function has a positional arguement text which is required
-              void displayString1(String text){
-                  print(text);
-              }
-              
-              // Calling above displayString1 function
-              displayString1('Hello World');
-              
-              // Below function has an optional positional argument text
-              // While calling this function we don't have to pass parameter
-              void displayString2([String? text]){
-                  print(text == null ? 'Hello World' : text);
-              }
-              
-              // Calling above displayString2 function
-              displayString2();
-              
-              // Below function has named parameters with default values
-              void displayString3({bool isBold = false, bool isItalic = false}){
-                  // Code here
-              }
-              
-              // Calling above displayString3 function
-              displayString3(isBold: true, isItalic: false);
+                // Below function has a positional arguement text which is required
+                void displayString1(String text){
+                    print(text);
+                }
+                
+                // Calling above displayString1 function
+                displayString1('Hello World');
+                
+                // Below function has an optional positional argument text
+                // While calling this function we don't have to pass parameter
+                void displayString2([String? text]){
+                    print(text == null ? 'Hello World' : text);
+                }
+                
+                // Calling above displayString2 function
+                displayString2();
+                
+                // Below function has named parameters with default values
+                void displayString3({bool isBold = false, bool isItalic = false}){
+                    // Code here
+                }
+                
+                // Calling above displayString3 function
+                displayString3(isBold: true, isItalic: false);
         ```
         
 * **Control Flow**: We can control the flow of our Dart code using loops and supporting statements.
@@ -166,73 +166,73 @@ As with any other object oriented language, Dart language support the following:
     * `for` loop.
         
         * ```dart
-                  var list = ['Red', 'Blue','Green'];
-                  for (var i = 0; i < list.length; i++) {
-                      print(list[i]);
-                  }
+                    var list = ['Red', 'Blue','Green'];
+                    for (var i = 0; i < list.length; i++) {
+                        print(list[i]);
+                    }
             ```
             
     * `while` loop.
         
         * ```dart
-                  while(condition) {
-                     doSomeThing();
-                  }
+                    while(condition) {
+                       doSomeThing();
+                    }
             ```
             
     * `do-while` loop.
         
         * ```dart
-                  do {
-                    doSomeThing();
-                  } while (condition);
+                    do {
+                      doSomeThing();
+                    } while (condition);
             ```
             
     * `if-else` statements.
         
         * ```dart
-                  if(condition1){
-                      doThis1();
-                  }
-                  else if(condition2){
-                      doThis2();
-                  }
-                  else{
-                      doThis();
-                  }
+                    if(condition1){
+                        doThis1();
+                    }
+                    else if(condition2){
+                        doThis2();
+                    }
+                    else{
+                        doThis();
+                    }
             ```
             
     * `switch` statements.
         
         * ```dart
-                  var status = 'TODO';
-                  switch (command) {
-                    case 'TODO':
-                      // Code Here
-                    case 'INPROGRESS':
-                      // Code Here
-                    case 'BLOCKED':
-                      // Code Here
-                    case 'COMPLETED':
-                      // Code Here
-                    default:
-                      // Unknown status
-                      // Code here
-                  }
+                    var status = 'TODO';
+                    switch (command) {
+                      case 'TODO':
+                        // Code Here
+                      case 'INPROGRESS':
+                        // Code Here
+                      case 'BLOCKED':
+                        // Code Here
+                      case 'COMPLETED':
+                        // Code Here
+                      default:
+                        // Unknown status
+                        // Code here
+                    }
             ```
             
 * **Classes:** Dart is an object-oriented programming language with classes. We can define classes in Dart as below.
     
     * ```dart
-              class Person{
-                  String id;
-                  String name;
-              
-                  Person(this.id, this.name);
-              }
-              
-              // We can create an object 
-              var person = Person('1', 'Manoj Kulkarni');
+                class Person{
+                    String id;
+                    String name;
+                
+                    Person(this.id, this.name);
+                }
+                
+                // We can create an object 
+                var person = Person('1', 'Manoj Kulkarni');
         ```
         
 
@@ -241,20 +241,20 @@ As with any other object oriented language, Dart language support the following:
 * To declare classes or enums we use PascalCase.
     
     * ```dart
-              class Person{
-                  String id;
-                  String name;    
-              }
+                class Person{
+                    String id;
+                    String name;    
+                }
         ```
         
 * To declare variables and functions we use camelCase.
     
     * ```dart
-              String name = 'Manoj';
-              
-              bool isValid(){
-                  // Code here
-              }
+                String name = 'Manoj';
+                
+                bool isValid(){
+                    // Code here
+                }
         ```
         
 * For file name, use lowercase\_with\_underscores. For example `hello_world.dart`
@@ -262,9 +262,13 @@ As with any other object oriented language, Dart language support the following:
 
 These are just some of the basic concepts related to Dart. To learn more about Dart programming language, goto [https://dart.dev/language](https://dart.dev/language)
 
-I have also created a YouTube video regarding this topic, so if you would like to watch a video tutorial, then please go to [https://youtu.be/Nz6Rsxbwfx8](https://youtu.be/Nz6Rsxbwfx8)
+I have also created a few YouTube videos regarding this topic, so if you would like to watch a video tutorial, then please go to [https://bit.ly/3WiL7M7](https://bit.ly/3WiL7M7)
 
 %[https://youtu.be/Nz6Rsxbwfx8] 
+
+%[https://youtu.be/nfvoUdtWKuE] 
+
+%[https://youtu.be/R6abanIx-to] 
 
 ## [Quick-Tip:](https://youtu.be/9Xx_ZrymBQk)
 
