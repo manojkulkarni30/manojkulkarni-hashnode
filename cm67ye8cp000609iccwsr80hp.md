@@ -40,7 +40,7 @@ We can use GitHub Copilot through extension in most of the popular IDEs like Vis
     
     Click on the **Sign in to Github.com** button. This will open up a browser window and all you have to do is sign in with your GitHub account.
     
-* Once the authentication is completed, you will be redirect back to Visual Studio Code.
+* Once the authentication is completed, you will be redirected back to Visual Studio Code.
     
 * ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737552473165/498a0613-2bf8-4f4b-9bbb-56cda2110f18.png align="center")
     
