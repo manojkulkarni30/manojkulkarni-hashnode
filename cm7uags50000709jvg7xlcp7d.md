@@ -52,6 +52,6 @@ I have also created a YouTube video regarding this topic, so if you would like t
 
 ## [Conclusion:](https://youtu.be/fHFgE51NZhk)
 
-[Understanding](https://youtu.be/fHFgE51NZhk) the difference between const and final in Dart is super important for writing efficient code. const is like a fixed interview time - you know it beforehand and it stays the same. On the other hand, final is like the result of an interview - you set it once and it’s set in stone. By using these keywords correctly, you can write code that’s easier to understand and maintain. I hope this article helped!
+Understanding the difference between const and final in Dart is super important for writing efficient code. const is like a fixed interview time - you know it beforehand and it stays the same. On the other hand, final is like the result of an interview - you set it once and it’s set in stone. By using these keywords correctly, you can write code that’s easier to understand and maintain. I hope this article helped!
 
 Happy coding!
